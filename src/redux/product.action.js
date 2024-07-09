@@ -4,6 +4,7 @@ import {
   SUCCUSS_SINGLE,
   ADD_SINGLE_SUCCESS,
   LOADING,
+  LOADING_DETAILS,
   ERROR,
 } from "./product.type";
 const API = "https://mock-server-0rak.onrender.com/products";
@@ -51,7 +52,7 @@ export const editProduct = (id, editProduct) => async (dispatch) => {
 
 // get single product --
 export const getSingleProduct = (id) => async (dispatch) => {
-  dispatch({ type: LOADING });
+  dispatch({ type: LOADING_DETAILS });
   try {
     const res = await axios.get(`${API}/${id}`);
     dispatch({ type: SUCCUSS_SINGLE, payload: res.data });

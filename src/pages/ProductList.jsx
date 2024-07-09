@@ -34,45 +34,50 @@ const ProductList = () => {
 
   return (
     <div className="product-list">
-      <AddAndEditProductModal
-        isOpen={isOpen}
-        onClose={() => setIsOpen(false)}
-        handleEdit={handleEdit}
-        product={initialData}
-      />
       <SearchAndNav
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
         setIsOpen={setIsOpen}
         products={products}
       />
-      <Pagination page={page} setPage={setPage} products={products} />
-      {products.length === 0 && !loading && !error && (
+      {loading && !error && (
+        <h1 style={{ color: "#fff", textAlign: "center" }}> Loading...</h1>
+      )}
+      {!loading && error && (
         <div style={{ textAlign: "center" }}>
-          <h2 style={{ color: "teal" }}>No Data Found!</h2>
+          <h2 style={{ color: "red" }}>Server Error 500!</h2>
           <button onClick={() => window.location.reload()}>Refresh</button>
         </div>
       )}
+      {products && !loading && !error && (
+        <>
+          <AddAndEditProductModal
+            isOpen={isOpen}
+            onClose={() => setIsOpen(false)}
+            handleEdit={handleEdit}
+            product={initialData}
+          />
+          <Pagination page={page} setPage={setPage} products={products} />
+          {products.length === 0 && !loading && !error && (
+            <div style={{ textAlign: "center" }}>
+              <h2 style={{ color: "teal" }}>No Data Found!</h2>
+              <button onClick={() => window.location.reload()}>Refresh</button>
+            </div>
+          )}
 
-      <div className="product-grid">
-        {products.map((product) => (
-          <div key={product.id} className="product-card">
-            <h2>{product.name}</h2>
-            <p>{product.description}</p>
-            <p>
-              <strong>Price:</strong> ${product.price}
-            </p>
-            <Link to={`/product/${product.id}`}>View Details</Link>
+          <div className="product-grid">
+            {products.map((product) => (
+              <div key={product.id} className="product-card">
+                <h2>{product.name}</h2>
+                <p>{product.description}</p>
+                <p>
+                  <strong>Price:</strong> ${product.price}
+                </p>
+                <Link to={`/product/${product.id}`}>View Details</Link>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-
-      {loading && !products && !error && <div>Loading...</div>}
-      {!loading && !products && error && (
-        <div style={{ textAlign: "center" }}>
-          <h2 style={{ color: "red" }}> Something Went Wrong!</h2>
-          <button onClick={() => window.location.reload()}>Refresh</button>
-        </div>
+        </>
       )}
     </div>
   );
