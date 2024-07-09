@@ -4,7 +4,6 @@ Start Frontend Using:
 ### `npm start`
 
 Start Mock JSON server using
-
 ### `npm run server`
 
 Product List:
