@@ -6,7 +6,7 @@ import {
   LOADING,
   ERROR,
 } from "./product.type";
-const API = "http://localhost:5000/apiproducts";
+const API = "https://mock-server-0rak.onrender.com/products";
 
 // add new product --
 export const addNewProduct = (editProduct) => async (dispatch) => {
