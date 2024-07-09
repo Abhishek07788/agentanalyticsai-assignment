@@ -1,0 +1,324 @@
+{
+  "apiproducts": [
+    {
+      "id": "1",
+      "name": "Wireless Earbuds",
+      "price": "100",
+      "description": "High-quality wireless earbuds with noise cancellation.",
+      "category": "Electronics",
+      "stock": 50,
+      "rating": 4.5,
+      "manufacturer": "SoundTech"
+    },
+    {
+      "id": "2",
+      "name": "Smart Thermostat",
+      "price": "400",
+      "description": "Wi-Fi enabled thermostat for home temperature control.",
+      "category": "Home Appliances",
+      "stock": 30,
+      "rating": 4,
+      "manufacturer": "ThermoHome"
+    },
+    {
+      "id": "3",
+      "name": "Gaming Mouse",
+      "price": 300,
+      "description": "Ergonomic gaming mouse with customizable buttons.",
+      "category": "Computer Accessories",
+      "stock": 20,
+      "rating": 4.8,
+      "manufacturer": "GamePro"
+    },
+    {
+      "id": "4",
+      "name": "4K TV",
+      "price": 500,
+      "description": "Ultra HD 4K television with smart features.",
+      "category": "Electronics",
+      "stock": 15,
+      "rating": 4.6,
+      "manufacturer": "ViewMax"
+    },
+    {
+      "id": "5",
+      "name": "Blender",
+      "price": 150,
+      "description": "High-speed blender for smoothies and soups.",
+      "category": "Kitchen Appliances",
+      "stock": 25,
+      "rating": 4.2,
+      "manufacturer": "BlendMaster"
+    },
+    {
+      "id": "6",
+      "name": "Electric Kettle",
+      "price": 80,
+      "description": "Fast boiling electric kettle with automatic shut-off.",
+      "category": "Kitchen Appliances",
+      "stock": 40,
+      "rating": 4.3,
+      "manufacturer": "HotBrew"
+    },
+    {
+      "id": "7",
+      "name": "Laptop Stand",
+      "price": 60,
+      "description": "Adjustable laptop stand for comfortable typing.",
+      "category": "Office Supplies",
+      "stock": 60,
+      "rating": 4.7,
+      "manufacturer": "ErgoDesk"
+    },
+    {
+      "id": "8",
+      "name": "Smart Watch",
+      "price": 250,
+      "description": "Fitness tracking smartwatch with heart rate monitor.",
+      "category": "Wearable Tech",
+      "stock": 35,
+      "rating": 4.4,
+      "manufacturer": "FitPulse"
+    },
+    {
+      "id": "9",
+      "name": "Bluetooth Speaker",
+      "price": 120,
+      "description": "Portable Bluetooth speaker with deep bass.",
+      "category": "Audio",
+      "stock": 45,
+      "rating": 4.5,
+      "manufacturer": "BassBoom"
+    },
+    {
+      "id": "10",
+      "name": "Air Fryer",
+      "price": 180,
+      "description": "Healthier frying option with minimal oil.",
+      "category": "Kitchen Appliances",
+      "stock": 20,
+      "rating": 4.6,
+      "manufacturer": "HealthyFry"
+    },
+    {
+      "id": "11",
+      "name": "Robot Vacuum",
+      "price": 400,
+      "description": "Smart robot vacuum with automatic cleaning schedule.",
+      "category": "Home Appliances",
+      "stock": 10,
+      "rating": 4.7,
+      "manufacturer": "CleanBot"
+    },
+    {
+      "id": "12",
+      "name": "Smart Doorbell",
+      "price": 220,
+      "description": "Video doorbell with motion detection and alerts.",
+      "category": "Home Security",
+      "stock": 25,
+      "rating": 4.3,
+      "manufacturer": "SecureHome"
+    },
+    {
+      "id": "13",
+      "name": "Wireless Charger",
+      "price": 90,
+      "description": "Fast wireless charger compatible with all devices.",
+      "category": "Electronics",
+      "stock": 55,
+      "rating": 4.4,
+      "manufacturer": "ChargePro"
+    },
+    {
+      "id": "14",
+      "name": "Electric Toothbrush",
+      "price": 130,
+      "description": "Rechargeable electric toothbrush with multiple modes.",
+      "category": "Personal Care",
+      "stock": 30,
+      "rating": 4.6,
+      "manufacturer": "SmileTech"
+    },
+    {
+      "id": "15",
+      "name": "Portable Projector",
+      "price": 350,
+      "description": "Compact projector for movies and presentations.",
+      "category": "Electronics",
+      "stock": 12,
+      "rating": 4.5,
+      "manufacturer": "ProjectorPlus"
+    },
+    {
+      "id": "16",
+      "name": "Noise Cancelling Headphones",
+      "price": 270,
+      "description": "Over-ear headphones with active noise cancellation.",
+      "category": "Audio",
+      "stock": 20,
+      "rating": 4.7,
+      "manufacturer": "QuietSound"
+    },
+    {
+      "id": "17",
+      "name": "Smart Light Bulb",
+      "price": 40,
+      "description": "Wi-Fi enabled light bulb with adjustable brightness.",
+      "category": "Home Automation",
+      "stock": 80,
+      "rating": 4.3,
+      "manufacturer": "BrightLife"
+    },
+    {
+      "id": "18",
+      "name": "Fitness Tracker",
+      "price": 110,
+      "description": "Waterproof fitness tracker with GPS and heart rate monitor.",
+      "category": "Wearable Tech",
+      "stock": 35,
+      "rating": 4.4,
+      "manufacturer": "FitTrack"
+    },
+    {
+      "id": "19",
+      "name": "Portable Power Bank",
+      "price": 60,
+      "description": "High-capacity power bank for charging on the go.",
+      "category": "Electronics",
+      "stock": 75,
+      "rating": 4.5,
+      "manufacturer": "PowerMax"
+    },
+    {
+      "id": "20",
+      "name": "Smart Lock",
+      "price": 190,
+      "description": "Keyless smart lock with remote access.",
+      "category": "Home Security",
+      "stock": 25,
+      "rating": 4.6,
+      "manufacturer": "SecureLock"
+    },
+    {
+      "id": "21",
+      "name": "Digital Photo Frame",
+      "price": 140,
+      "description": "Wi-Fi digital photo frame with cloud storage.",
+      "category": "Home Decor",
+      "stock": 30,
+      "rating": 4.4,
+      "manufacturer": "FrameTech"
+    },
+    {
+      "id": "22",
+      "name": "Cordless Vacuum Cleaner",
+      "price": 300,
+      "description": "Lightweight cordless vacuum for easy cleaning.",
+      "category": "Home Appliances",
+      "stock": 20,
+      "rating": 4.7,
+      "manufacturer": "CleanMaster"
+    },
+    {
+      "id": "23",
+      "name": "Smart Scale",
+      "price": 80,
+      "description": "Bluetooth-enabled scale with body composition analysis.",
+      "category": "Health",
+      "stock": 50,
+      "rating": 4.5,
+      "manufacturer": "HealthFit"
+    },
+    {
+      "id": "24",
+      "name": "Electric Grill",
+      "price": 220,
+      "description": "Indoor electric grill with non-stick surface.",
+      "category": "Kitchen Appliances",
+      "stock": 15,
+      "rating": 4.4,
+      "manufacturer": "GrillMaster"
+    },
+    {
+      "id": "25",
+      "name": "Water Purifier",
+      "price": 300,
+      "description": "Advanced water purifier with UV and RO technology.",
+      "category": "Home Appliances",
+      "stock": 10,
+      "rating": 4.6,
+      "manufacturer": "PureWater"
+    },
+    {
+      "id": "26",
+      "name": "Home Security Camera",
+      "price": 150,
+      "description": "Wireless security camera with night vision.",
+      "category": "Home Security",
+      "stock": 30,
+      "rating": 4.3,
+      "manufacturer": "SecureCam"
+    },
+    {
+      "id": "27",
+      "name": "Smart Mirror",
+      "price": 500,
+      "description": "Interactive smart mirror with voice control.",
+      "category": "Home Automation",
+      "stock": 8,
+      "rating": 4.7,
+      "manufacturer": "SmartReflect"
+    },
+    {
+      "id": "28",
+      "name": "Electric Scooter",
+      "price": 600,
+      "description": "Foldable electric scooter with long battery life.",
+      "category": "Transportation",
+      "stock": 12,
+      "rating": 4.6,
+      "manufacturer": "EcoRide"
+    },
+    {
+      "id": "29",
+      "name": "Wireless Home Speaker",
+      "price": 200,
+      "description": "High-fidelity home speaker with multi-room capability.",
+      "category": "Audio",
+      "stock": 22,
+      "rating": 4.5,
+      "manufacturer": "SoundWave"
+    },
+    {
+      "id": "30",
+      "name": "Digital Notepad",
+      "price": 100,
+      "description": "E-ink digital notepad for note-taking and drawing.",
+      "category": "Office Supplies",
+      "stock": 40,
+      "rating": 4.4,
+      "manufacturer": "NoteTech"
+    },
+    {
+      "name": "Full Stack Web Development",
+      "price": "35353",
+      "description": "wrwrwrwrw",
+      "category": "5353",
+      "stock": "353",
+      "rating": "53",
+      "manufacturer": "353535",
+      "id": "tQlpK1c"
+    },
+    {
+      "name": "ABHISHEK",
+      "price": "342",
+      "description": "fsfsfsfsfsgsgsgs",
+      "category": "4242422424224",
+      "stock": "242",
+      "rating": "424",
+      "manufacturer": "sfrwrwtwtwtgwg",
+      "id": "Did3Age"
+    }
+  ]
+}
